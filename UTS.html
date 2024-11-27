@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>artlantiest - Craft Your Style </title>
+	<link rel="icon" type="image/x-icon" href="images/logoartlantiest1.png">
+  <link rel="stylesheet" type="text/css" href="UTS.css">
+  <script src="UTS.js"></script>
+  <script src="https://kit.fontawesome.com/2f7212799d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+  <!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+      <h2>artlantiest</h2>
+      <a href="javascript:void(0);" class="closebtn" onclick="toggleSidebar()">&times;</a>
+  </div>
+  <div class="sidebar-content">
+      <div class="widget">
+          <h3>Owner Profile</h3>
+          <p>Siti Fauziah</p>
+          <img src="images/ziah.jpeg">
+          <p>Siti Fauziah is a student at Universitas Terbuka Bogor, she opened artlantiest as a sidejob.</p>
+          <h3>Contact</h3>
+            <a href="https://www.instagram.com/estfwziajh/" i class="fa-brands fa-instagram fa-3x" ></a>
+          <h3 class="dropdown-toggle" onclick="toggleDropdown()">Blog
+            <i class="fa fa-caret-down"></i>
+          </h3>
+          
+          <div class="dropdown-content" style="display: none;">
+            <a href="artikel1.html">Beads: A Comprehensive Guide to Their History, Types, and Uses</a>
+            <a href="artikel2.html">Tips for Building a Successful Bead Business</a>
+            <a href="artikel3.html">Steps to Create Jewelry from Beads: A Beginner's Guide</a>
+          </div>
+          <div class="widget">
+            <h3>Clock</h3>
+            <div id="clock"></div>
+        </div>
+        <div class="widget">
+            <h3>Visitor Statistics</h3>
+            <p>Visitor Count: <span id="visitor-count">0</span></p>
+        </div>
+        </div>
+  </div>
+</div>
+
+<!-- Hamburger Icon -->
+<a href="javascript:void(0);" class="icon" onclick="toggleSidebar()">
+  &#9776; <!-- Hamburger icon -->
+</a>
+
+  <div class="container">
+    <nav class="navbar">
+      <div class="logo">
+        <div class="logo-text">
+          <img src="images/logoartlantiest.png">
+        </div>
+      </div>
+      <div class="navigation">
+        <a href="#home">Home</a>
+        <a href="product.html">Product</a>
+        <div class="dropdown">
+          <a href="#about" class="dropbtn">About</a>
+          <div class="dropdown-content">
+              <a href="profile.html">Profile</a>
+              <a href="history.html">History</a>
+              <a href="vimi.html">Vision&Mision</a>
+              <a href="goals.html">Goals</a>
+          </div>
+      </div>
+        <a href="request.html">Request</a>
+        <a href="contact.html">Contact</a>
+    
+      </div>
+    </nav>
+
+        <section class="home" id="home">
+          <div class="home-text">
+            <span>let's sink into the</span>
+            <h1>artlantiest</h1>
+            <a href="https://www.instagram.com/direct/t/17842816506252802" class="home-btn">
+              Order Now
+            </a>
+          </div>
+          <div class="home-img">
+            <img src="images/beadshome.png">
+          </div>
+        </section>
+
+        <section class="Product" id="product">
+          <div class="heading">
+            <span>Our Product</span>
+          </div>
+          <div class="product-container">
+            <div class="box">
+              <div class="box-img">
+                <img src="images/beads1.png" alt="">
+              </div>
+              <h2>Charm</h2>
+              <a href="https://www.instagram.com/direct/t/17842816506252802" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+              <div class="box-img">
+                <img src="images/beads5.png" alt="">
+              </div>
+              <h2>Ring</h2>
+              <a href="https://www.instagram.com/direct/t/17842816506252802" class="btn">Order Now</a>
+            </div>
+            <div class="box">
+              <div class="box-img">
+                <img src="images/beads7.png" alt="">
+              </div>
+              <h2>Phone Strap</h2>
+              <a href="https://www.instagram.com/direct/t/17842816506252802" class="btn">Order Now</a>
+            </div>
+          </div>
+          <a href="product.html" class="btn more-btn">More</a>
+       
+        </section>
+   
+        <section class="about" id="about">
+          <div class="about-img">
+            <img src="images/aboutbeads.png" alt="">
+          </div>
+          <div class="about-text">
+            <h2>About Us</h2>
+            <p>artlantiest offers a wide range of handmade accessories that blend creativity with various themes. Our products include bracelets, rings, keychains, and phonestraps made from beads. Each item is designed with its own uniqueness, perfect for gifts or personal collection. We are committed to providing trendy and functional accessories, which can be customized with customers' color and design preferences to make them more personalized.</p>
+            <a href="about.html" class="btn">Read More</a>
+          </div>
+        </section>
+      
+
+        <!-- Blog Section -->
+<section id="blog" class="blog-section">
+  <div class="blog-container">
+      <h2 class="heading"><span>Blog</span></h2>
+      <div class="blog-articles">
+          <article class="blog-article">
+              <h3 class="article-title">Beads: A Comprehensive Guide to Their History, Types, and Uses</h3>
+              <p class="article-excerpt">Beads are more than just decorative elements; they have been an integral part of human culture and creativity for thousands of years...</p>
+              <a href="artikel1.html" class="read-more-btn">Read More</a>
+          </article>
+          <article class="blog-article">
+              <h3 class="article-title">Tips for Building a Successful Bead Business</h3>
+              <p class="article-excerpt">Starting a bead business is an exciting journey that requires creativity, dedication, and smart planning...</p>
+              <a href="artikel2.html" class="read-more-btn">Read More</a>
+          </article>
+          <article class="blog-article">
+              <h3 class="article-title">Steps to Create Jewelry from Beads: A Beginner's Guide</h3>
+              <p class="article-excerpt">Creating jewelry from beads is a process that combines artistry and skill, and the best part is that the possibilities are endless...</p>
+              <a href="artikel3.html" class="read-more-btn">Read More</a>
+          </article>
+      </div>
+  </div>
+</section>
+
+      
+
+      <section class="customers">
+        <div class="customers-banner">
+          <h3 class="main-heading">Testimony</h3>
+          <h1>Customers Say</h1>
+
+        </div>
+        <div class="clients">
+          <div class="client">
+            <p>
+              Mantap. Suka banget sama phone-strapnya, temanya kayak peri gitu. Next time beli yang charm-nya, deh. Thanks.
+            </p>
+            <div>
+              <img decoding="async" src="images/naila.jpeg" />
+              <span>Naila</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              Sesuai sama request, makasih ya artlantiest. Yang mau samaan langsung klik order now aja dehh
+            </p>
+            <div>
+              <img decoding="async" src="images/raisa.jpeg" />
+              <span>Raisa</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              Pengerjaannya cepet, recommended banget beli di sini.
+            </p>
+            <div>
+              <img decoding="async" src="images/nci.jpeg" />
+              <span>Nci</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+              Aku request tema ikan di hari Selasa, terus dikirim hari Rabu. Gercep dan sesuai request.
+            </p>
+            <div>
+              <img decoding="async" src="images/alvitara.jpeg" />
+              <span>Alvitara</span>
+            </div>
+          </div>
+          <div class="client">
+            <p>
+             Ini mah top pisan, makasih yaa. Nanti aku beli lagii.
+            </p>
+            <div>
+              <img decoding="async" src="images/chrysanda.jpeg" />
+              <span>Chrysanda</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+</body>
+<footer>
+  <p class="copyright">
+    &copy; All Rights Reserved. 2024. Desain By Reishika Aulia Ratu (11220251000060)
+  </p>
+</footer>
+
+</html>

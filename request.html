@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>artlantiest - Craft Your Style </title>
+	<link rel="icon" type="image/x-icon" href="images/logoartlantiest1.png">
+  <link rel="stylesheet" type="text/css" href="UTS.css">
+  <script src="UTS.js"></script>
+  <script src="https://kit.fontawesome.com/2f7212799d.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+ 
+  <!-- Sidebar -->
+<div class="sidebar" id="sidebar">
+  <div class="sidebar-header">
+      <h2>artlantiest</h2>
+      <a href="javascript:void(0);" class="closebtn" onclick="toggleSidebar()">&times;</a>
+  </div>
+  <div class="sidebar-content">
+      <div class="widget">
+          <h3>Owner Profile</h3>
+          <p>Siti Fauziah</p>
+          <img src="images/ziah.jpeg">
+          <p>Siti Fauziah is a student at Universitas Terbuka Bogor, she opened artlantiest as a sidejob.</p>
+          <h3>Contact</h3>
+            <a href="https://www.instagram.com/estfwziajh/" i class="fa-brands fa-instagram fa-3x" ></a>
+          <h3 class="dropdown-toggle" onclick="toggleDropdown()">Blog
+            <i class="fa fa-caret-down"></i>
+          </h3>
+          
+          <div class="dropdown-content" style="display: none;">
+            <a href="artikel1.html">Beads: A Comprehensive Guide to Their History, Types, and Uses</a>
+            <a href="artikel2.html">Tips for Building a Successful Bead Business</a>
+            <a href="artikel3.html">Steps to Create Jewelry from Beads: A Beginner's Guide</a>
+          </div>
+          <div class="widget">
+            <h3>Clock</h3>
+            <div id="clock"></div>
+        </div>
+        <div class="widget">
+            <h3>Visitor Statistics</h3>
+            <p>Visitor Count: <span id="visitor-count">0</span></p>
+        </div>
+        </div>
+  </div>
+</div>
+
+<!-- Hamburger Icon -->
+<a href="javascript:void(0);" class="icon" onclick="toggleSidebar()">
+  &#9776; <!-- Hamburger icon -->
+</a>
+
+<div class="container">
+  <nav class="navbar">
+    <div class="logo">
+      <div class="logo-text">
+        <img src="images/logoartlantiest.png">
+      </div>
+    </div>
+    <div class="navigation">
+      <a href="UTS.html">Home</a>
+      <a href="product.html">Product</a>
+      <div class="dropdown">
+        <a href="#about" class="dropbtn">About</a>
+        <div class="dropdown-content">
+            <a href="profile.html">Profile</a>
+            <a href="history.html">History</a>
+            <a href="vimi.html">Vision&Mision</a>
+            <a href="goals.html">Goals</a>
+        </div>
+    </div>
+      <a href="#request">Request</a>
+      <a href="contact.html">Contact</a>
+  
+    </div>
+  </nav>
+  <section class="another-home" id="product">
+    <div class="another-text">
+      <span>Request</span>
+      <h1>Here</h1>
+    </div>
+  </section>
+
+  <section class="contact-form">
+    <div class="form-container">
+        <form action="/action_page.php">
+            <div class="form-group">
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="username">Instagram Username:</label><br>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div class="form-group">
+                <label for="phone">Phone Number:</label><br>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+            <div class="form-group">
+                <label for="request">Request:</label><br>
+                <textarea id="request" name="request" rows="4" required></textarea>
+            </div>
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+</body>
+<footer>
+  <p class="copyright">
+    &copy; All Rights Reserved. 2024. Desain By Reishika Aulia Ratu (11220251000060)
+  </p>
+</footer>
+
+</html>s
